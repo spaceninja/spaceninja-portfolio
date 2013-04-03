@@ -1,0 +1,194 @@
+/*
+	Global Stylesheet for Detroit Diesel 2008
+	Rules in this sheet should be applied to almost every page on the site.
+	If a rule will only apply to one or two pages, add it to pages.css instead.
+
+	Be polite to future developers, and label any hex colors you use! - SV
+*/
+
+/* Universal Rules -------------------------------------------------- */
+body {
+	margin: 0;
+	padding: 1em;
+	border-top: 1em solid #333;
+	background: #fff;
+	color: #333;
+	/* font sizing in ems, baby. if you want to change anything, just change this.*/
+	font: 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+}
+.ahem, hr { display: none !important; }
+img { border: none; }
+form { margin: 0; }
+a { outline: none; } /* firefox claret fix (remove dotted lines) */
+.floatleft, #content .floatleft { float: left; margin: 0 1em 1em 0; }
+.floatright, #content .floatright { float: right; margin: 0 0 1em 1em; }
+.alignright { text-align: right; }
+.alignleft { text-align: left; }
+.aligncenter { text-align: center; }
+.clearboth { clear: both; }
+sup { /* to prevent gaps in paragraph layouts, we'll switch back to regular v-align and shunt it up with pos:rel */
+	vertical-align: baseline;
+	position: relative;
+	bottom: .33em;
+}
+acronym, abbr { cursor: help; border-bottom: 1px dotted #666; }
+
+/* Layout -------------------------------------------------- */
+#page {
+	width: 640px;
+	margin: 0 auto;
+}
+#header {
+}
+#wrapper {
+}
+#content {
+}
+#footer {
+	clear: both;
+}
+
+/* Content -------------------------------------------------- */
+a, a:link, a:visited {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+}
+a:hover, a:focus, a:active {
+	color: #c00;
+}
+h1, h2 ,h3, h4 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.25;
+	margin: 0 0 .25em;
+}
+h1 {
+	font-size: 5em;
+	font-weight: 100;
+}
+h2 {
+	font-size: 2.5em;
+	font-weight: 100;
+	letter-spacing: .05em;
+}
+#content h2 {
+	font-size: 2em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: .25em;
+	margin-bottom: .25em;
+	text-align: center;
+	color: #ccc;
+}
+h3 {
+	font-size: 1.75em;
+	font-weight: 100;
+	letter-spacing: .1em;
+}
+h4 {
+	font-size: 1.5em;
+}
+h5, h6 {
+	font-size: 1.25em;
+}
+p, ul, ol, table {
+	margin: .25em 0 1em;
+}
+ul, ol {
+	margin-left: 0;
+	padding-left: 0;
+}
+ul ul,
+ol ol {
+	margin: 0;
+}
+li {
+	margin-left: 1.25em;
+	padding-left: 0;
+}
+ul li {
+	list-style-type: disc;
+}
+ol li {
+	margin-left: 1.5em;
+}
+p,
+li {
+	text-align: justify;
+}
+blockquote {
+	margin-left: 0;
+	margin-right: 0;
+	font-style: italic;
+}
+.entry {
+	margin: 1em 0;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: .5em;
+	margin-bottom: 2em;
+}
+.thumb {
+	margin-left: -192px;
+	position: relative;
+}
+.thumb img {
+	display: block;
+	border: 1px solid #ccc;
+}
+.thumb .zoom {
+	position: absolute;
+	left: 1004px;
+	top: 230px;
+	border: none;
+}
+.thumb .zoom img {
+	border: none;
+}
+.leadtxt {
+	font-size: 1.25em;
+}
+.highlight {
+  background: #ffc;
+}
+#references li {
+	margin: 0 20px 1em 0;
+	float: left;
+	width: 300px;
+	list-style: none;
+	text-align: left;
+}
+.actions {
+	height: 16px;
+}
+.actions a {
+	border: none;
+	padding-left: 20px;
+	background: transparent url("../images/mag.png") no-repeat;
+	display: block;
+	float: left;
+}
+a.view {
+	margin-right: 1em;
+}
+a.visit {
+	background-image: url("../images/world_go.png");
+}
+
+/* Header -------------------------------------------------- */
+#header {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1.5em;
+	margin-bottom: 2em;
+}
+#header * {
+	margin: 0;
+	text-align: center;
+}
+#header p {
+	font-size: 1.25em;
+}
+
+/* Footer -------------------------------------------------- */
+#footer p {
+	text-align: center;
+}

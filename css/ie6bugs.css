@@ -1,0 +1,18 @@
+.thumb {
+	margin-right: -257px;
+	zoom:100%;
+}
+
+/* PNG Transparency -------------------------------------------------- */
+/*
+There should be hardly anything in here, really, since we're using the pngfix javascript.
+*/
+.actions a {
+	width: auto;
+	height: 16px;
+	background: none;
+	display: block;
+	cursor: pointer;
+}
+.actions a.view { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mag.png', sizingMethod='crop'); }
+.actions a.visit { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/world_go.png', sizingMethod='crop'); }
