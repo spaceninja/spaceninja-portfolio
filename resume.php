@@ -20,7 +20,7 @@ include "header.php";
 
 <h3>Experience</h3>
 
-<p><strong>Burnside Digital</strong>, 04/11 - present
+<p><strong>Burnside Digital</strong>, 04/11 - 04/13
 <br />Senior Front-End Developer
 <br />Provide front-end production for selected clients including Food Network. Push client adoption of mobile support and CSS3 standards like media queries and @font-face. Drive adoption of maintenance-focused best-practices and expansion of front-end as a discipline in the organization. Speaking at conferences and blogging. Revamped company blogging strategy and overhauled company branding.</p>
 

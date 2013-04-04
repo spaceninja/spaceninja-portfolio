@@ -17,7 +17,7 @@ include "header.php";
 	</p>
 	<h3>Sara Ryan</h3>
 	<p>
-		Local Portland novelist Sara Ryan contacted me 2012 to redesign her website. The overall look was intended to feel more clean, professional, and more focused on typography, with fewer distractions (like social media sharing links). In particular, the books page was redesigned to emphasize her novels, while allowing her to feature comics and anthology work in a more clear way. This project took place over several months, beginning with wireframes and proceeding through full photoshop comps and a full wordpress theme. This is the second site built using my Flatline parent theme.
+		Local Portland novelist Sara Ryan contacted me in 2012 to redesign her website. The overall look was intended to feel more clean, professional, and more focused on typography, with fewer distractions (like social media sharing links). In particular, the books page was redesigned to emphasize her novels, while allowing her to feature comics and anthology work in a more clear way. This project took place over several months, beginning with wireframes and proceeding through full photoshop comps and a full wordpress theme. This is the second site built using my Flatline parent theme.
 	</p>
 	<p class="actions">
 		<a href="images/sararyan-crop.jpg" class="view">View screenshot</a>
