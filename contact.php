@@ -8,7 +8,7 @@ include "header.php";
 
 <h3>How can I get in contact with you?</h3>
 
-<p class="leadtxt">I'm sorry to say, but due to abuse by recruiters, I've had to remove all my contact information from this site. That said, I'm not looking for work right now anyway, so there's no really any reason to get ahold of me. Despite this, if you feel you absolutely must get ahold of me, you can try to guess my email address (it's not tricky), or use the contact form on <a href="http://www.linkedin.com/in/scottvandehey">LinkedIn</a>. Any contact regarding job opportunities will be deleted and filed as spam.</p>
+<p class="leadtxt">I'm sorry to say, but due to abuse by recruiters, I've had to remove all my contact information from this site. That said, I'm not looking for work right now anyway, so there's not really any reason to get ahold of me. Despite this, if you feel you absolutely must get ahold of me, you can try to guess my email address (it's not tricky), or use the contact form on <a href="http://www.linkedin.com/in/scottvandehey">LinkedIn</a>. Any contact regarding job opportunities will be deleted and filed as spam.</p>
 
 <p>I'm sorry to be such a pain to get ahold of. For years, I had my phone number and email posted here, and it wasn't a problem. However, for the last year or so, it's resulted in a never-ending stream of harassing phone calls from recruiters.</p>
 
